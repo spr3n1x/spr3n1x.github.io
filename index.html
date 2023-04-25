@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Magnum Auctions - Auction Services</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Erilisdesign.com">
+
+		<link rel="stylesheet" href="assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/utilities.css">
+
+		<link rel="stylesheet" href="assets/css/custom.css">
+
+		<link rel="stylesheet" href="assets/vendor/fullPage.js/dist/jquery.fullpage.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/vendor/slick/slick.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/vendor/vegas/vegas.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/vendor/themify-icons/css/themify-icons.css" type="text/css">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700%7CMRoboto:300,400,500,700" rel="stylesheet">
+
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	</head>
+	<body>
+
+		<div id="preloader" class="preloader preloader-dark">
+			<div class="loader-status">
+				<div class="circle-side"></div>
+			</div>
+		</div>
+
+		<!-- Global Overlay -->
+		<div class="global-overlay shadow-9">
+			<div class="overlay-inner bg-image-holder bg-cover">
+				<img src="assets/images/background.png" alt="background">
+			</div>
+			<div class="overlay-inner bg-black opacity-75"></div>
+		</div>
+
+		<!-- Frame -->
+		<div class="frame d-none d-lg-block">
+			<div class="frame-left"></div>
+			<div class="frame-right"></div>
+			<div class="frame-top"></div>
+			<div class="frame-bottom"></div>
+		</div>
+
+		<div class="site-container">
+
+			<!-- Site Header -->
+			<header class="site-header header-fixed">
+				<div class="overlay d-xl-none">
+					<div class="overlay-inner bg-dark opacity-95"></div>
+				</div>
+				<nav class="navbar navbar-expand-xl navbar-dark">
+					<!-- Logo -->
+					<a href="#" class="navbar-brand logo">
+						
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#site-navbar" aria-controls="siteNavbar" aria-expanded="false" aria-label="Toggle navigation">
+						<span></span>
+					</button>
+					<div class="collapse navbar-collapse" id="site-navbar">
+						<ul id="navigation" class="navbar-nav ml-auto">
+							<li data-menuanchor="home" class="nav-item">
+								<a href="#home" class="nav-link">Home</a>
+							</li>
+							
+							<li data-menuanchor="subscribe" class="nav-item">
+								<a href="#subscribe" class="nav-link">Subscribe</a>
+							</li>
+							<li data-menuanchor="about" class="nav-item">
+								<a href="#about" class="nav-link">About Us</a>
+							</li>
+							<li data-menuanchor="contact" class="nav-item">
+								<a href="#contact" class="nav-link">Contact Us</a>
+							</li>
+							<li data-menuanchor="bids" class="nav-item">
+								<a href="#bids" class="nav-link">Offline Bids</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+			<!-- Button - Back to Top -->
+			<button type="button" class="back-to-top">
+				<i class="fas fa-angle-up"></i>
+			</button>
+
+			<!-- Page Content - Fullpage -->
+			<div class="oli-fullpage">
+
+				<section class="oli-section d-flex min-vh--100" data-anchor="home" data-tooltip="Home">
+					<div class="container align-self-center text-center text-white">
+						
+						<img src="assets/images/logo-light.png" alt="">
+						<a href="#subscribe" class="btn btn-outline-white rounded-0 scrollto">Subscribe</a>
+						<a href="https://www.liveauctioneers.com/auctioneer/7652/magnum-auctions/" class="btn rounded-0 btn-white btn-shadow">Bid Now</a>
+						<a href="#contact" class="btn btn-outline-white rounded-0 scrollto">Offline Bids</a>
+					</div>
+					
+					
+				</section>
+
+				<section class="oli-section d-flex min-vh-lg--100" data-anchor="subscribe" data-tooltip="Subscribe">
+					<div class="container align-self-center text-white">
+						<div class="row mb-5">
+							<div class="col-12 col-lg-9 mx-lg-auto text-center">
+								<h2 class="mb-3">Get our latest content in your inbox</h2>
+								<p></p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-5 mx-lg-auto">
+								<div class="subscribe-form">
+									<form class="mb-0" id="sf" name="sf" action="include/subscribe.php" method="post" autocomplete="off">
+										<div class="row">
+
+											<div class="form-process"></div>
+
+											<div class="col-12">
+												<div class="form-group text-white mb-0">
+													<input type="email" id="sf-email" name="sf-email" placeholder="Enter Your Email Address" class="form-control rounded-0 fc-semi-white border--transparent required">
+												</div>
+											</div>
+
+											<div class="col-12 d-none">
+												<input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-control">
+											</div>
+
+											<div class="col-12">
+												<button class="btn btn-white rounded-0 btn-block" type="submit" id="sf-submit" name="sf-submit">Notify Me</button>
+											</div>
+
+										</div>
+									</form>
+									<div class="subscribe-form-result"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
+				<section class="oli-section d-flex min-vh-lg--100" data-anchor="about" data-tooltip="About">
+					<div class="container align-self-center text-white">
+						<div class="row mb-4">
+							<div class="col-12 col-lg-10 mx-lg-auto text-center">
+								<h2 class="mb-3">About Us</h2>
+								<p>Oli is a creative technology company dedicated to building relevant digital products for our clients. We help businesses update or improve existing products in response to new opportunities and ever-evolving market needs.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-6 mb-4 mb-lg-0">
+								<p>Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non. Etiam sapien purus, cursus eu pulvinar et, tempor sit amet ipsum. Sed a nisl sit amet lorem dictum hendrerit. Fusce massa dolor, mattis sed ultrices ut, placerat ut leo. Donec sed fringilla lectus, non vulputate orci. Integer id libero euismod, interdum ligula vel, porttitor magna. Sed euismod maximus finibus. Pellentesque tempus ultricies nisi at cursus. Nulla at nisi tellus. Suspendisse potenti.</p>
+							</div>
+							<div class="col-12 col-lg-6">
+								<p>Mauris ut sem elementum, tristique velit sed, volutpat mauris. Ut interdum nibh sit amet imperdiet condimentum. Nulla sed tellus placerat, vehicula risus ac, sollicitudin quam. Quisque pharetra porta libero, a sagittis nisl tristique non. Etiam sapien purus, cursus eu pulvinar et, tempor sit amet ipsum. Sed a nisl sit amet lorem dictum hendrerit. Fusce massa dolor, mattis sed ultrices ut, placerat ut leo. Donec sed fringilla lectus, non vulputate orci. Integer id libero euismod, interdum ligula vel, porttitor magna. Sed euismod maximus finibus. Pellentesque tempus ultricies nisi at cursus. Nulla at nisi tellus. Suspendisse potenti.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="oli-section d-flex min-vh-lg--100" data-anchor="contact" data-tooltip="Contact Us">
+					<div class="container align-self-center text-white">
+						<div class="row mb-4">
+							<div class="col-12 col-lg-10 mx-lg-auto text-center">
+								<h1 class="mb-3">Contact Us</h1>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-6 mb-4 mb-lg-0 text-center">
+								<h2>Jon Schlorb</h2>
+								<hr>
+								<a class="text-yellow" href="tel:419-581-9693"><h3>419-581-9693</h3></a><br>
+								<a class="text-yellow" href="mailto:jschlorb@magnumauctions.com"><h3>jschlorb@magnumauctions.com</h3></a>
+							</div>
+							<div class="col-12 col-lg-6 text-center">
+								<h2>Brandon Riggans</h2>
+								<hr>
+								<a class="text-yellow" href="tel:419-581-9463"><h3>419-581-9463</h3></a><br>
+								<a class="text-yellow" href="mailto:briggans@magnumauctions.com"><h3>briggans@magnumauctions.com</h3></a>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="oli-section d-flex min-vh-lg--100" data-anchor="bids" data-tooltip="Offline Bids">
+					<div class="container align-self-center text-white">
+						<div class="row mb-5">
+							<div class="col-12 col-lg-9 col-xl-12 mx-lg-auto text-center">
+								<h2 class="mb-3">Offline Bids</h2>
+								<p>Fill out this form if you would like to place offline bids with Magnum Auctions!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-10 mx-lg-auto">
+								<div class="contact-form">
+									<form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post" autocomplete="off">
+										<div class="form-process"></div>
+
+										<div class="form-row">
+
+											<div class="col-12 col-md-6 form-group">
+												<input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-control fc-semi-white rounded-0 required">
+											</div>
+
+											<div class="col-12 col-md-6 form-group">
+												<input type="text" id="cf-phone" name="cf-phone" placeholder="Enter your phone number" class="form-control fc-semi-white rounded-0 required">
+											</div>
+											<div class="col-12 col-md-12 form-group">
+												<input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-control fc-semi-white rounded-0 required">
+											</div>
+
+											
+											<div class="col-12 mb-4 form-group mb-5">
+												<textarea name="cf-message" id="cf-message" placeholder="Here goes your message" class="form-control fc-semi-white rounded-0 required" rows="7"></textarea>
+											</div>
+
+											<div class="col-12 d-none">
+												<input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control fc-semi-white rounded-0" />
+											</div>
+											<div class="col-12 text-center">
+												<input type="radio" id="absentee" name="bidType" value="Absentee">
+  												<label for="absentee">Absentee</label><br>
+  												<input type="radio" id="phone" name="bidType" value="Phone Bid">
+  												<label for="phone">Phone Bid</label><br><br>
+											</div>
+											
+											<div class="col-12 text-center">
+												<button class="btn btn-white btn-shadow rounded-0" type="submit" id="cf-submit" name="cf-submit">Send Message</button>
+											</div>
+
+										</div>
+									</form>
+									<div class="contact-form-result"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div><!-- .oli-fullpage end -->
+
+			<!-- Site Footer -->
+			<footer class="site-footer footer-fixed footer-mobile-dark footer-light">
+				<div class="container-fluid d-md-flex align-items-md-center justify-content-md-between">
+					<nav class="social-nav social-nav-pinned">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						</ul>
+					</nav>
+					<p class="mb-2 mb-xl-0">© 2023 Magnum Auctions - All Rights Reserved</p>
+					<nav class="usefull-nav">
+						<ul>
+							<!--<li><a href="#">Terms of Service</a></li>-->
+							<!--<li><a href="#">Privacy Policy</a></li>-->
+						</ul>
+					</nav>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+		<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/fullPage.js/dist/scrolloverflow.min.js"></script>
+		<script src="assets/vendor/fullPage.js/dist/jquery.fullpage.min.js"></script>
+		<script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+		<script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
+		<script src="assets/vendor/jQuery.countdown/dist/jquery.countdown.min.js"></script>
+		<script src="assets/vendor/granim.js/dist/granim.min.js"></script>
+		<script src="assets/vendor/slick/slick.min.js"></script>
+		<script src="assets/vendor/vegas/vegas.min.js"></script>
+		<script src="assets/vendor/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js"></script>
+
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
